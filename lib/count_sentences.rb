@@ -18,7 +18,7 @@ class String
     tube = self.split(/[\s.?!,]/)
     count = 0
     tube.each do |x|
-        count += 1 if x.question?||x.question?||x.exclamation?
+      count += 1 if x.question?||x.question?||x.exclamation?
     end
   end
 end
