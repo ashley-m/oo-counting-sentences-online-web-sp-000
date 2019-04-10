@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-
+    tube = self.split(/[\s.?!,]/)
   end
 end
