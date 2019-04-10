@@ -19,5 +19,6 @@ class String
     count = 0
     tube.each do |x|
         count += 1 if x.question?||x.question?||x.exclamation?
+    end
   end
 end
